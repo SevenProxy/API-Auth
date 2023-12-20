@@ -1,0 +1,23 @@
+/*
+import { ApolloServer } from "apollo-server";
+import { buildSchema } from "type-graphql";
+
+// Resolvers
+import { AuthClientResolver } from "./domain/client/controller/auth.client.resolver";
+
+async function HTTPStarter(): Promise<void> {
+    const schema = await buildSchema({
+        resolvers: [
+            AuthClientResolver,
+        ],
+    })
+
+    const server = new ApolloServer({
+        schema,
+    });
+
+    const { url } = await server.listen();
+    console.log(`HTTP server running on ${url}`);
+}
+
+HTTPStarter();*/
