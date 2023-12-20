@@ -3,7 +3,7 @@ import * as dotenv from "dotenv";
 import { ResponseCors } from "../../dtos/types/props.middle";
 dotenv.config();
 
-const isPermit: string | undefined = process.env.SITE_FRONT ?? "http://localhost:300";
+const isPermit: string | undefined = process.env.FRONT_URL ?? "http://localhost:300";
 
 
 const responseCors: ResponseCors = {
