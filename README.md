@@ -38,7 +38,7 @@ Bem-vindo ao repositório do projeto de API de Autenticação, uma aplicação d
 
 5. **Endpoints Disponíveis:**
    - `POST /auth-login`: Autentica um usuário e fornece um token JWT.
-   - `POST /auth-token`: Authenticação um usuário com base em seu toke JWT.
+   - `POST /auth-token`: Authenticação um usuário com base em seu token JWT.
 
 ## Contribuições
 
