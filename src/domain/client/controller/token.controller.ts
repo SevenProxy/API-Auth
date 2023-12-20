@@ -1,12 +1,10 @@
 import { Request, Response } from "express";
 import { ClientRepository } from "../adapters/client/client.repository";
 import { JwtPayload } from "jsonwebtoken";
-import { UncrypResponse } from "../../../dtos/types/props.middle";
 import { ResponseAdapters } from "../../../dtos/models/props.adapters";
 import { unencryptData } from "../../../infra/middleware/crypto.middle";
 import { UncryptJWT } from "../../../infra/middleware/jwt.middle";
 import { Client } from "../../../dtos/types/cilent";
-import bcrypt from "bcrypt";
 import dotenv from "dotenv";
 dotenv.config();
 
